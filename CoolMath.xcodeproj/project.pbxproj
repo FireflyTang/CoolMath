@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F121B84D1B0B3A0F009C17ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F121B84C1B0B3A0F009C17ED /* main.cpp */; };
+		F121B8651B0B3A4D009C17ED /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F121B85D1B0B3A4D009C17ED /* Matrix.cpp */; };
+		F121B8661B0B3A4D009C17ED /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F121B85E1B0B3A4D009C17ED /* Vector.cpp */; };
+		F121B8671B0B3A4D009C17ED /* CoolMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F121B8611B0B3A4D009C17ED /* CoolMath.cpp */; };
+		F121B86A1B0B55DF009C17ED /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F121B8681B0B55DF009C17ED /* Plane.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F121B8471B0B3A0F009C17ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F121B8491B0B3A0F009C17ED /* CoolMath */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoolMath; sourceTree = BUILT_PRODUCTS_DIR; };
+		F121B84C1B0B3A0F009C17ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F121B85D1B0B3A4D009C17ED /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix.cpp; path = ../CoolMath/CoolMath/Matrix.cpp; sourceTree = "<group>"; };
+		F121B85E1B0B3A4D009C17ED /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector.cpp; path = ../CoolMath/CoolMath/Vector.cpp; sourceTree = "<group>"; };
+		F121B85F1B0B3A4D009C17ED /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = ../CoolMath/CoolMath/Matrix.h; sourceTree = "<group>"; };
+		F121B8601B0B3A4D009C17ED /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector.h; path = ../CoolMath/CoolMath/Vector.h; sourceTree = "<group>"; };
+		F121B8611B0B3A4D009C17ED /* CoolMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CoolMath.cpp; path = ../CoolMath/CoolMath/CoolMath.cpp; sourceTree = "<group>"; };
+		F121B8621B0B3A4D009C17ED /* CoolMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoolMath.h; path = ../CoolMath/CoolMath/CoolMath.h; sourceTree = "<group>"; };
+		F121B8631B0B3A4D009C17ED /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utils.h; path = ../CoolMath/CoolMath/utils.h; sourceTree = "<group>"; };
+		F121B8681B0B55DF009C17ED /* Plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Plane.cpp; path = ../CoolMath/CoolMath/Plane.cpp; sourceTree = "<group>"; };
+		F121B8691B0B55DF009C17ED /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plane.h; path = ../CoolMath/CoolMath/Plane.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F121B8461B0B3A0F009C17ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F121B8401B0B3A0F009C17ED = {
+			isa = PBXGroup;
+			children = (
+				F121B8641B0B3A4D009C17ED /* CoolMath */,
+				F121B84B1B0B3A0F009C17ED /* CoolMath */,
+				F121B84A1B0B3A0F009C17ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F121B84A1B0B3A0F009C17ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F121B8491B0B3A0F009C17ED /* CoolMath */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F121B84B1B0B3A0F009C17ED /* CoolMath */ = {
+			isa = PBXGroup;
+			children = (
+				F121B84C1B0B3A0F009C17ED /* main.cpp */,
+			);
+			path = CoolMath;
+			sourceTree = "<group>";
+		};
+		F121B8641B0B3A4D009C17ED /* CoolMath */ = {
+			isa = PBXGroup;
+			children = (
+				F121B8681B0B55DF009C17ED /* Plane.cpp */,
+				F121B8691B0B55DF009C17ED /* Plane.h */,
+				F121B8621B0B3A4D009C17ED /* CoolMath.h */,
+				F121B8611B0B3A4D009C17ED /* CoolMath.cpp */,
+				F121B8601B0B3A4D009C17ED /* Vector.h */,
+				F121B85E1B0B3A4D009C17ED /* Vector.cpp */,
+				F121B85F1B0B3A4D009C17ED /* Matrix.h */,
+				F121B85D1B0B3A4D009C17ED /* Matrix.cpp */,
+				F121B8631B0B3A4D009C17ED /* utils.h */,
+			);
+			name = CoolMath;
+			path = ../bighw2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F121B8481B0B3A0F009C17ED /* CoolMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F121B8501B0B3A0F009C17ED /* Build configuration list for PBXNativeTarget "CoolMath" */;
+			buildPhases = (
+				F121B8451B0B3A0F009C17ED /* Sources */,
+				F121B8461B0B3A0F009C17ED /* Frameworks */,
+				F121B8471B0B3A0F009C17ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolMath;
+			productName = CoolMath;
+			productReference = F121B8491B0B3A0F009C17ED /* CoolMath */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F121B8411B0B3A0F009C17ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "唐如麟";
+				TargetAttributes = {
+					F121B8481B0B3A0F009C17ED = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = F121B8441B0B3A0F009C17ED /* Build configuration list for PBXProject "CoolMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F121B8401B0B3A0F009C17ED;
+			productRefGroup = F121B84A1B0B3A0F009C17ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F121B8481B0B3A0F009C17ED /* CoolMath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F121B8451B0B3A0F009C17ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F121B8671B0B3A4D009C17ED /* CoolMath.cpp in Sources */,
+				F121B8651B0B3A4D009C17ED /* Matrix.cpp in Sources */,
+				F121B86A1B0B55DF009C17ED /* Plane.cpp in Sources */,
+				F121B84D1B0B3A0F009C17ED /* main.cpp in Sources */,
+				F121B8661B0B3A4D009C17ED /* Vector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F121B84E1B0B3A0F009C17ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F121B84F1B0B3A0F009C17ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F121B8511B0B3A0F009C17ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F121B8521B0B3A0F009C17ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F121B8441B0B3A0F009C17ED /* Build configuration list for PBXProject "CoolMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F121B84E1B0B3A0F009C17ED /* Debug */,
+				F121B84F1B0B3A0F009C17ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F121B8501B0B3A0F009C17ED /* Build configuration list for PBXNativeTarget "CoolMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F121B8511B0B3A0F009C17ED /* Debug */,
+				F121B8521B0B3A0F009C17ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F121B8411B0B3A0F009C17ED /* Project object */;
+}
